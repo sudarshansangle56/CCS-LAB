@@ -38,6 +38,7 @@ public class RSA {
       
         BigInteger DBig = BigInteger.valueOf(d);
         BigInteger decrypM = C.modPow(DBig, NB); 
-        System.out.println("Decrypted: " + decrypM);
+        System.out.println("Encrypted msg: " + C);
+        System.out.println("Decrypted msg: " + decrypM);
     }
 }
