@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Hellman {
     public static void main (String args[]){
@@ -21,8 +21,9 @@ public class Hellman {
         if(KAB==KABB){
             System.out.println("both are same");
         }
-        
-        System.out.println(KAB);
-        System.out.println(KABB);
+        System.out.println("public key of A :"+ YA);
+        System.out.println("public key of B :"+ YB);
+        System.out.println( "Private key of A KAB :"+KAB);
+        System.out.println( "Private key of B KAB :"+KABB);
         }
 }
