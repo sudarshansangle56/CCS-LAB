@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.*;
 
 public class Hellman {
@@ -17,7 +18,7 @@ public class Hellman {
 
         int KAB= (int)Math.pow(YB,A)%P;
         int KABB=(int)Math.pow(YA,B)%P;
-
+ 
         if(KAB==KABB){
             System.out.println("both are same");
         }
