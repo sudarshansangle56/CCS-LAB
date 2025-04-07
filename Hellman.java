@@ -1,6 +1,4 @@
-import java.math.BigInteger;
 import java.util.*;
-
 public class Hellman {
     public static void main (String args[]){
         Scanner S= new Scanner(System.in);
